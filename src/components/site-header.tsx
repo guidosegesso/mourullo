@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import styles from "./site-header.module.css";
@@ -18,7 +19,14 @@ export function SiteHeader() {
     <header className={styles.header}>
       <div className={styles.inner}>
         <Link href="/" className={styles.brand}>
-          <img src="/logo_mourullo.png" alt="Logo Mourullo" />
+          <Image
+            src="/logo_mourullo.png"
+            alt="Logo Mourullo"
+            width={180}
+            height={56}
+            className={styles.brandLogo}
+            priority
+          />
           <div>
             <strong>Mourullo</strong>
           </div>

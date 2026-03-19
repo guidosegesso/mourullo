@@ -28,10 +28,10 @@
   transform: translateX(var(--brand-offset-x));
 }
 
-.brand img {
-  width: 100%;
+.brandLogo {
+  width: auto;
   height: 56px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .brand strong {
