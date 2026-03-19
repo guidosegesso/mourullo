@@ -1,0 +1,88 @@
+/* [project]/src/components/site-header.module.css [app-client] (css) */
+.site-header-module__wBaYfG__header {
+  z-index: 20;
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  background: #fff9f1c7;
+  border-bottom: 1px solid #d9cec0b3;
+  position: sticky;
+  top: 0;
+}
+
+.site-header-module__wBaYfG__inner {
+  --header-padding-inline: 1.5rem;
+  --brand-offset-x: 0rem;
+  width: 100%;
+  min-height: 5.5rem;
+  padding-inline: var(--header-padding-inline);
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  gap: 1rem;
+  display: grid;
+}
+
+.site-header-module__wBaYfG__brand {
+  transform: translateX(var(--brand-offset-x));
+  grid-column: 1;
+  justify-self: start;
+  align-items: center;
+  gap: .9rem;
+  display: flex;
+}
+
+.site-header-module__wBaYfG__brand img {
+  object-fit: cover;
+  width: 100%;
+  height: 56px;
+}
+
+.site-header-module__wBaYfG__brand strong {
+  color: var(--colorSecundario);
+  font-size: 1.15rem;
+  display: block;
+}
+
+.site-header-module__wBaYfG__brand span {
+  color: var(--colorTextoSuave);
+  font-size: .92rem;
+  display: block;
+}
+
+.site-header-module__wBaYfG__nav {
+  flex-wrap: wrap;
+  grid-column: 2;
+  justify-content: center;
+  justify-self: center;
+  gap: .5rem;
+  display: flex;
+}
+
+.site-header-module__wBaYfG__nav a {
+  color: var(--colorSecundario);
+  transition: background-color var(--transicionBase), color var(--transicionBase);
+  border-radius: 999px;
+  padding: .75rem 1rem;
+  font-weight: 700;
+}
+
+.site-header-module__wBaYfG__nav a:hover, .site-header-module__wBaYfG__active {
+  color: var(--colorPrincipalHover);
+  background: #f36f211f;
+}
+
+@media (max-width: 820px) {
+  .site-header-module__wBaYfG__inner {
+    --header-padding-inline: 1rem;
+    grid-template-columns: 1fr;
+    align-items: start;
+    padding-block: 1rem;
+  }
+
+  .site-header-module__wBaYfG__brand, .site-header-module__wBaYfG__nav {
+    grid-column: 1;
+    justify-self: start;
+    transform: none;
+  }
+}
+
+/*# sourceMappingURL=src_components_site-header_module_css_bad6b30c._.single.css.map*/

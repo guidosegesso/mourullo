@@ -1,0 +1,22 @@
+/* [project]/src/components/site-footer.module.css [app-client] (css) */
+.site-footer-module__STLB6W__footer {
+  padding: 1.5rem 0 2.5rem;
+}
+
+.site-footer-module__STLB6W__inner {
+  color: var(--colorTextoSuave);
+  border-top: 1px solid #1f2a371a;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 1.25rem;
+  font-size: .92rem;
+  display: flex;
+}
+
+@media (max-width: 720px) {
+  .site-footer-module__STLB6W__inner {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=src_components_site-footer_module_css_bad6b30c._.single.css.map*/

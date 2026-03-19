@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///D:/Proyectos/mourullo-web/src/app/contacto/contacto.module.css"],"sourcesContent":[".layout {\n  display: grid;\n  grid-template-columns: minmax(0, 1.15fr) minmax(300px, 0.85fr);\n  gap: 1.5rem;\n}\n\n.info h1 {\n  margin-top: 1rem;\n  font-size: clamp(2.5rem, 5vw, 4.4rem);\n}\n\n.info p {\n  margin-top: 1.2rem;\n  max-width: 38rem;\n  color: var(--colorTextoSuave);\n}\n\n.rows {\n  display: grid;\n  gap: 1rem;\n  margin-top: 2rem;\n}\n\n.rows article {\n  padding: 1.2rem 1.3rem;\n}\n\n.rows span {\n  display: block;\n  color: var(--colorTextoSuave);\n  font-size: 0.9rem;\n}\n\n.rows strong {\n  display: block;\n  margin-top: 0.35rem;\n  color: var(--colorSecundario);\n  font-size: 1.1rem;\n}\n\n.panel {\n  display: grid;\n  gap: 1rem;\n  align-content: start;\n  padding: 1.75rem;\n  background: linear-gradient(180deg, rgba(31, 42, 55, 0.98) 0%, rgba(31, 42, 55, 0.92) 100%);\n  color: #fff;\n}\n\n.panel h2 {\n  font-size: 2rem;\n}\n\n.panel p {\n  color: rgba(255, 255, 255, 0.78);\n}\n\n@media (max-width: 900px) {\n  .layout {\n    grid-template-columns: 1fr;\n  }\n}\n"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;;AAKA;;;;;;AAMA;;;;;;AAMA;;;;AAIA;;;;;;AAMA;;;;;;;AAOA;;;;;;;;;AASA;;;;AAIA;;;;AAIA;EACE"}}]
+}

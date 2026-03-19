@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///D:/Proyectos/mourullo-web/src/app/quienes-somos/quienes-somos.module.css"],"sourcesContent":[".layout {\n  display: grid;\n  grid-template-columns: minmax(0, 1.2fr) minmax(300px, 0.8fr);\n  gap: 1.5rem;\n}\n\n.copy h1 {\n  margin-top: 1rem;\n  font-size: clamp(2.5rem, 5vw, 4.4rem);\n}\n\n.copy p {\n  margin-top: 1.2rem;\n  max-width: 42rem;\n  color: var(--colorTextoSuave);\n}\n\n.sidePanel {\n  display: grid;\n  gap: 1.5rem;\n  align-content: start;\n  padding: 1.75rem;\n}\n\n.sidePanel strong {\n  color: var(--colorSecundario);\n  font-size: 1.2rem;\n  font-family: var(--font-heading), serif;\n}\n\n.sidePanel ul {\n  display: grid;\n  gap: 0.8rem;\n  margin-top: 1rem;\n}\n\n.sidePanel li {\n  padding: 1rem;\n  border-radius: 18px;\n  background: rgba(31, 42, 55, 0.05);\n}\n\n.quote {\n  padding: 1.25rem;\n  border-radius: 18px;\n  background: linear-gradient(135deg, var(--colorPrincipal), #f29b38);\n  color: #fff;\n}\n\n.quote p {\n  color: inherit;\n}\n\n@media (max-width: 900px) {\n  .layout {\n    grid-template-columns: 1fr;\n  }\n}\n"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;;AAKA;;;;;;AAMA;;;;;;;AAOA;;;;;;AAMA;;;;;;AAMA;;;;;;AAMA;;;;;;;AAOA;;;;AAIA;EACE"}}]
+}

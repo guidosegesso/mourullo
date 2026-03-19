@@ -1,0 +1,2 @@
+:HL["/mourullo/_next/static/chunks/789d1c8142ca3ffb.css","style"]
+0:{"buildId":"_4SW0GfVzP5R63x5TJRWn","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"/_not-found","paramType":null,"paramKey":"/_not-found","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/productos/layout,_N_T_/productos/categoria/layout,_N_T_/productos/categoria/[categorySlug]/layout,_N_T_/productos/categoria/[categorySlug]/page,_N_T_/productos/categoria/aislacion"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/productos/categoria/$d$categorySlug/__PAGE__",
+    "/productos/categoria/$d$categorySlug",
+    "/productos/categoria",
+    "/productos",
+    "/_index",
+    "/_head"
+  ]
+}

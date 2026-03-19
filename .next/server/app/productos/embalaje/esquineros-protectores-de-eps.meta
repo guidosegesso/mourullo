@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/productos/layout,_N_T_/productos/[categorySlug]/layout,_N_T_/productos/[categorySlug]/[productSlug]/layout,_N_T_/productos/[categorySlug]/[productSlug]/page,_N_T_/productos/embalaje/esquineros-protectores-de-eps"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/productos/$d$categorySlug/$d$productSlug/__PAGE__",
+    "/productos/$d$categorySlug/$d$productSlug",
+    "/productos/$d$categorySlug",
+    "/productos",
+    "/_index",
+    "/_head"
+  ]
+}
